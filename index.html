@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Snapshop par Adaube</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">
+          <img class="logo-image" src="assets/images/adaube_logo.png" alt="adaube logo">
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#fonctionnalites">fonctionnalités</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#fonctionnalites">fonctionnalités</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div id="index-banner" class="full-screen parallax-container light-blue lighten-4">
+    <div class="section no-pad-bot">
+      <canvas id="canvas"></canvas>
+      <div class="container">
+        <div class="row center">
+          <h1 class="header col s12">Snapshop par Adaube</h1>
+          <h5 class="header col s12 light">Editer une image devient un jeu d'enfant.</h5>
+        </div>
+        <div class="row center">
+          <a href="https://github.com/Ewskr0/Snapshop" id="download-button" class="btn-large waves-effect waves-light">Télécharger</a>
+        </div>
+      </div>
+    </div>
+    <!-- 
+      <div class="parallax"><img src="assets/images/background1.jpg" alt="Unsplashed background img 1"></div>
+      -->
+  </div>
+
+
+  <div class="container" id="introduction">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center orange-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Optimisé</h5>
+
+            <p class="light">L’idée générale est de créer un logiciel de traitement d’image simplifié. Ildoit être
+              simple
+              d’utilisation avec un maximum d’options. Notre but est deprocurer à l’utilisateur une expérience
+              simplifiée
+              tout en restant de qualité.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center yellow-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Equipe soudé</h5>
+
+            <p class="light">Toutes les grandes réalisations de ce monde ne sont pas le fruit du travail d’un seul
+              individu.
+              C'est dans cette optique que nous avons choisi de developper Snapshot.
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center green-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Modulaire</h5>
+
+            <p class="light">Les principales fonctionnalités de notre projet concerne le traitement d’image.
+              Des fonctionnalités les plus simples tel que redimensionner l’image ou encorefaire pivoter l’image
+              jusqu’à détourer
+              des parties de l’image ou encore flouterl’image. Ces différentes fonctionnalités seront intégrées à une
+              interface Gtk.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper teal darken-1">
+    <div class="section no-pad-bot">
+      <div class="container" id="fonctionnalites">
+        <div class="row center section">
+          <ul class="collection with-header el-green">
+            <li class="collection-header el-green">
+              <h4>Fonctionnalités</h4>
+            </li>
+          </ul>
+            <div class="col s6 left-align">
+              <ul class="collection el-green">
+                <li class="collection-item el-green">Importer ou créer une image</li>
+                <li class="collection-item el-green">Undo / Redo</li>
+                <li class="collection-item el-green">Histogramme</li>
+                <li class="collection-item el-green">Calques</li>
+                <li class="collection-item el-green">Saisie de texte</li>
+                <li class="collection-item el-green">Enregistrer ou Exporter l’image modifiée</li>
+              </ul>
+
+            </div>
+            <div class="col s6 left-align">
+              <ul class="collection el-green">
+                <li class="collection-item el-green">Outil de selection</li>
+                <li class="collection-item el-green">Outil de remplissage</li>
+                <li class="collection-item el-green">Filtre de luminosite</li>
+                <li class="collection-item el-green">Filtre de contraste </li>
+                <li class="collection-item el-green">Filtre de floutage</li>
+                <li class="collection-item el-green">Filtre de Colorisation selon une couleur</li>
+              </ul>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 
+      <div class="parallax"><img src="assets/images/background1.jpg" alt="Unsplashed background img 1"></div>
+      -->
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>En bref</h4>
+          <p class="left-align light">Ce projet constitue un défi intéressant à relever, car cela nouspermet d’améliorer
+             et de perfectionner nos connaissances en C,tout en travaillant sur une thématique plus libre que lors du projet
+              de troisième semestre, ce qui constitue une source de motiva-tion supplémentaire. Cela constituera également 
+              une opportunitéd’utiliser l’expérience accumulée lors des projets précédents, au-tant sur le plan technique du code
+               que sur l’aspect de groupe.Nous souhaitons proposer des solutions efficaces et utiles aux pro-blèmes que nous avons
+                soulevés, et sommes d’ores et déjà motivésà porter ce projet à son terme.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper yellow darken-2">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Enfin, ce projet représente également la conclusion de toutes lesconnaissances
+             accumulées lors de notre parcours en cursus prépa-ratoire, et constitue donc un bon récapitulatif de notre
+              expérienceavant le grand saut en cycle ingénieur.</h5>
+        </div>
+      </div>
+    </div>
+    <!-- 
+      <div class="parallax"><img src="assets/images/background1.jpg" alt="Unsplashed background img 1"></div>
+      -->
+  </div>
+
+  <footer class="page-footer teal">
+      <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Adaube</h5>
+              <p class="grey-text text-lighten-4">Nous sommes 4 etudiants ayant pour but de coder un logiciel de traitement d'image, Snapshop. </p>
+    
+    
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Membres</h5>
+              <ul>
+                <li><a class="white-text" href="#!">Ewann Pellé</a></li>
+                <li><a class="white-text" href="#!">Antoine Bodin</a></li>
+                <li><a class="white-text" href="#!">Arthur Roux</a></li>
+                <li><a class="white-text" href="#!">Emmanuel Antoine</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Githubs</h5>
+              <ul>
+                <li><a class="white-text" href="#!">Link 1</a></li>
+                <li><a class="white-text" href="#!">Link 2</a></li>
+                <li><a class="white-text" href="#!">Link 3</a></li>
+                <li><a class="white-text" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="footer-copyright  blue-grey darken-4">
+      <div class="container">
+        Made by <a class="white-text text-lighten-3" href="https://github.com/Ewskr0/">Ewann Pellé</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
+  <script src="assets/js/text-particle.js"></script>
+
+
+</body>
+
+</html>
