@@ -31,7 +31,6 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
     top: 40%;
   }
   #index-banner .section {
@@ -71,7 +70,7 @@ footer.page-footer {
 
 
 .el-green{
-  border-color: #00695c!important;
+  border-color: #00796b!important;
   background-color: #00796b!important;
 }
 
