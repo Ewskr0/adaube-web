@@ -245,9 +245,9 @@ var utils = {
   var fieldvalue = "Snapshop";
   gravity = 0;
   duration =  .4;
-  resolution = .8;
-  speed = 0.2;
-  radius = 1;
+  resolution = 2;
+  speed = 0.1;
+  radius = .8;
   var message = new shape(W / 2, H / 2 + 50, fieldvalue);
   
   message.getValue();
