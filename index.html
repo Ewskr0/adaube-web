@@ -8,13 +8,15 @@
 	<meta name="google-site-verification" content="CeTknMlUfxMoa1-6oTNVihlqcCXhYTI7qfocIiWtxDI">
 	<meta name="description" content="SnapShop - Editer une image devient un jeu d'enfant.">
 	<link href="css/app.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,900" rel="stylesheet"
 		type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- JavaScripts-->
 	<script src="js/app.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<script src="js/smoothscroll.min.js"></script>
 </head>
 
@@ -151,14 +153,14 @@
 		<div class="how-end-cta"><a href="https://github.com/Ewskr0/Snapshop"
 				class="btn btn-large waves-effect waves-light sign-up-btn">Et d'avantage ici</a></div>
 	</div>
-	<div class="carousel">
+	<div class="carousel col l12">
 		<a class="carousel-item"><img src="img/filtre/img_drawcircle.png"></a>
 		<a class="carousel-item"><img src="img/filtre/img_fillcircle.png"></a>
 		<a class="carousel-item"><img src="img/filtre/img_fillcolor.png"></a>
 		<a class="carousel-item"><img src="img/filtre/img_splitGreen.png"></a>
 		<a class="carousel-item"><img src="img/filtre/img_splitBlue.png"></a>
 		<a class="carousel-item"><img src="img/filtre/img_splitRed.png"></a>
-		<a class="carousel-item"><img src="img/filtre/img_rot1x.png"></a>
+		<a class="carousel-item"><img src="img/filtre/img_rot2x.png"></a>
 		<a class="carousel-item"><img src="img/filtre/img_reverseHor.png"></a>
 		<a class="carousel-item"><img src="img/histogram/graphGreen.png"></a>
 		<a class="carousel-item"><img src="img/histogram/graphBLue.png"></a>
@@ -166,6 +168,7 @@
 		<a class="carousel-item"><img src="img/histogram/graphBlack.png"></a>
 		<a class="carousel-item"><img src="img/histogram/graphAll.png"></a>
 	</div>
+
 	<div id="features" class="features">
 		<div class="container-wide">
 			<div class="features-divider"><i class="material-icons">clear_all</i></div>
@@ -223,5 +226,10 @@
 		</div>
 	</footer>
 </body>
+<script>
+	$(document).ready(function () {
+		$('.carousel').carousel();
+	});
+</script>
 
 </html>
